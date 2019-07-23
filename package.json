@@ -1,7 +1,14 @@
 {
   "name": "next-tutorial",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "next": "^9.0.5",
+    "react-dom": "^16.9.0",
+    "react": "^16.9.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,17 +16,10 @@
     "type": "git",
     "url": "git+https://github.com/yoshi1125hisa/next-tutorial.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yoshi1125hisa/next-tutorial/issues"
   },
-  "homepage": "https://github.com/yoshi1125hisa/next-tutorial#readme",
-  "description": "",
-  "dependencies": {
-    "next": "^9.0.5",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
-  }
+  "homepage": "https://github.com/yoshi1125hisa/next-tutorial#readme"
 }
