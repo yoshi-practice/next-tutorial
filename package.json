@@ -8,8 +8,11 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cz-customizable": "6.2.0"
+  },
   "scripts": {
+    "commit": "node ./node_modules/cz-customizable/standalone.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
